@@ -1,0 +1,28 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.portWin": "COM9",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "files.associations": {
+        "sdkconfig.h": "c",
+        "task.h": "c",
+        "lvgl.h": "c",
+        "lcd_driver.h": "c",
+        "ledc_hal.h": "c",
+        "ledc_ll.h": "c",
+        "lv_demo.h": "c",
+        "lv_demo_benchmark.h": "c",
+        "lv_demo_conf.h": "c",
+        "lv_demos.h": "c",
+        "ledc.h": "c",
+        "esp_spi_flash.h": "c",
+        "easyio.h": "c",
+        "*.tcc": "c",
+        "cassert": "c",
+        "img.h": "c",
+        "freertos.h": "c"
+    },
+    "cmake.configureOnOpen": false
+}
